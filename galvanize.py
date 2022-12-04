@@ -1,8 +1,15 @@
 #!/usr/bin/env python3
 
+import logging
+
+logging.basicConfig(
+    format="%(levelname)s:%(threadName)s:%(message)s", level=logging.INFO
+)
+logger = logging.getLogger(__name__)
+
 
 def main() -> None:
-    print("lol")
+    logger.info("lol")
 
 
 if __name__ == "__main__":
