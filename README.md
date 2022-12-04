@@ -5,7 +5,7 @@
 > My finger is on the button (Push the button)
 > The time has come to
 
-# ⚗️⚡🔌🦾 Galvanize 🫱‍🫲🔇🛑
+# ⚗️⚡🔌🦾 Galvanize 🤝🔇🛑
 
 >
 > — The Chemical Brothers
