@@ -1,8 +1,8 @@
-> Don't hold back, world
-> The time has come to
-> World, the time has come to (Push the button)
-> World, my finger is on the button
-> My finger is on the button (Push the button)
+> Don't hold back, world<br>
+> The time has come to<br>
+> World, the time has come to (Push the button)<br>
+> World, my finger is on the button<br>
+> My finger is on the button (Push the button)<br>
 > The time has come to
 
 # ⚗️⚡🔌🦾 Galvanize 🤝🔇🛑
