@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "galvanize"
 version = "0.1.0"
-description = "Luxafor Mute-button for Zoom"
+description = "Luxafor Mute button for PulseAudio and e.g. Zoom"
 authors = ["Simon Lundström <github-commits@soy.se>"]
 license = "ISC"
 
