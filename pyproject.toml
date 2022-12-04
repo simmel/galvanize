@@ -14,6 +14,23 @@ pylint = "^2.15.7"
 mypy = "^0.991"
 pytest = "^7.2.0"
 
+[tool.isort]
+profile = "black"
+
+[tool.mypy]
+strict = true
+show_error_codes = true
+
+[tool.pylint]
+    [tool.pylint.master]
+    disable= [
+        'missing-docstring',
+        'consider-using-f-string',
+        ]
+
+    output-format = 'parseable'
+
+
 [tool.poetry.scripts]
 galvanize = 'galvanize:main'
 
