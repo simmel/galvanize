@@ -7,6 +7,7 @@ license = "ISC"
 
 [tool.poetry.dependencies]
 python = "^3.7.2"
+hidapi = "^0.12.0"
 
 [tool.poetry.dev-dependencies]
 black = "^22.10.0"

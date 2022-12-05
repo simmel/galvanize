@@ -95,6 +95,14 @@ python-versions = ">=3.7"
 test = ["pytest (>=6)"]
 
 [[package]]
+name = "hidapi"
+version = "0.12.0.post2"
+description = "A Cython interface to the hidapi from https://github.com/libusb/hidapi"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "importlib-metadata"
 version = "5.1.0"
 description = "Read metadata from Python packages"
@@ -333,7 +341,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "flake8 (<5)", "pytest-co
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.7.2"
-content-hash = "bd6a88e2ee17421326bdc13afb7f5865a06ee42985f1a5ae4699498afc413af7"
+content-hash = "e5bc5c1657f0b9bfbf0ec68ca5b7d2e3da80820c74fbceb0a1aa491573f1e50e"
 
 [metadata.files]
 astroid = []
@@ -343,6 +351,7 @@ click = []
 colorama = []
 dill = []
 exceptiongroup = []
+hidapi = []
 importlib-metadata = []
 iniconfig = []
 isort = []
