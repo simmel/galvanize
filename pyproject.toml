@@ -22,6 +22,7 @@ profile = "black"
     [tool.pylint.master]
     disable= [
         'consider-using-f-string',
+        'global-statement',
         'missing-docstring',
         ]
 
