@@ -20,8 +20,8 @@ profile = "black"
 [tool.pylint]
     [tool.pylint.master]
     disable= [
-        'missing-docstring',
         'consider-using-f-string',
+        'missing-docstring',
         ]
 
     output-format = 'parseable'
