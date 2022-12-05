@@ -25,6 +25,7 @@ profile = "black"
         'global-statement',
         'missing-docstring',
         ]
+    extension-pkg-allow-list = 'hid'
 
     output-format = 'parseable'
 
