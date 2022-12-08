@@ -96,7 +96,7 @@ def set_led(should_shine, leds):
 
 
 def main() -> None:
-    logger.info("lol")
+    logger.info("Starting up")
     with concurrent.futures.ThreadPoolExecutor(max_workers=1) as executor:
         try:
             while True:
