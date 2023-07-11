@@ -26,12 +26,13 @@ def discovery() -> None:
     threading.current_thread().name = (
         sys._getframe().f_code.co_name  # pylint: disable=protected-access
     )
+    logger.info("Waiting for device")
     while True:
         if DEVICE:
             try:
                 DEVICE.get_product_string()
             except OSError:
-                logger.exception("Device is probably disconnected")
+                logger.debug("Device is probably disconnected")
                 DEVICE = None
         else:
             if hid.enumerate(vendor_id=0x04D8, product_id=0xF372):
@@ -43,7 +44,7 @@ def discovery() -> None:
                     break
                 except OSError:
                     logger.debug("Failed to open device")
-            logger.info("Device not found: %r", DEVICE)
+            logger.debug("Device not found: %r", DEVICE)
             DEVICE = None
             time.sleep(5)
 
