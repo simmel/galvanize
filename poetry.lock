@@ -268,7 +268,7 @@ testing = ["argcomplete", "hypothesis (>=3.56)", "mock", "nose", "pygments (>=2.
 
 [[package]]
 name = "scapy"
-version = "2.4.5"
+version = "2.5.0"
 description = "Scapy: interactive packet manipulation tool"
 category = "main"
 optional = false
@@ -334,7 +334,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "flake8 (<5)", "pytest-co
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.7.2"
-content-hash = "baa493cc2950bf62ff2b380de2491614adbee3f424e973842e6048ba1e469d15"
+content-hash = "2352c8d3d86d4dab9f91acc4c93226fd0c7fdfa6d6a2f50e036b375dbb5b1fc4"
 
 [metadata.files]
 astroid = []
