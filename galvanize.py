@@ -88,12 +88,13 @@ def set_muted(should_mute):
 
 
 def set_led(should_shine, leds):
-    if should_shine:
-        for led in leds:
-            DEVICE.write([1, led, 5, 0, 0, 255, 255, 255])
-    else:
-        for led in leds:
-            DEVICE.write([1, led, 0, 0, 0, 255, 255, 255])
+    if DEVICE:
+        if should_shine:
+            for led in leds:
+                DEVICE.write([1, led, 5, 0, 0, 255, 255, 255])
+        else:
+            for led in leds:
+                DEVICE.write([1, led, 0, 0, 0, 255, 255, 255])
 
 
 def main() -> None:
