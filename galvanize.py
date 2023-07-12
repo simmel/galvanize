@@ -167,7 +167,7 @@ def meeting_detector():
 
 def main() -> None:
     logger.info("Starting up")
-    with concurrent.futures.ThreadPoolExecutor(max_workers=1) as executor:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=2) as executor:
         executor.submit(meeting_detector)
         while True:
             try:
